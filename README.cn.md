@@ -12,6 +12,27 @@ HTTP load generator, ApacheBench (ab) replacement
 x install hey
 ```
 
+## 代码规模
+
+合计: **1,008** 行代码（覆盖前 5 种语言、共 **11** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 968 | 167 | 150 | 8 |
+| Dockerfile | 32 | 5 | 7 | 1 |
+| Makefile | 8 | 0 | 4 | 1 |
+| Markdown | 0 | 83 | 22 | 1 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **3.4 / 10**
+
+评分最低的几项:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/rakyll/hey>
@@ -35,29 +56,28 @@ x install hey
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 2 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 5 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 1 | 1 | 7 | 1 | 2 | 14 |
+| last720d | 2024-09-20 | 1 | 1 | 7 | 1 | 6 | 14 |
 
-## 代码规模
+## 发行版状态
 
-合计: **1,008** 行代码（覆盖前 5 种语言、共 **11** 个文件）。
+在 [repology.org](https://repology.org/project/hey) 上共有 **56** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**38** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 968 | 167 | 150 | 8 |
-| Dockerfile | 32 | 5 | 7 | 1 |
-| Makefile | 8 | 0 | 4 | 1 |
-| Markdown | 0 | 83 | 22 | 1 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **3.4 / 10**
-
-评分最低的几项:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.1.5` | ✅ latest |
+| Debian 14 | `0.1.5` | ✅ latest |
+| Debian 13 | `0.1.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.1.4` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.1.4` | ⚠️ outdated |
+| Homebrew | `0.1.5` | ✅ latest |
+| Nix unstable | `0.1.4` | ⚠️ outdated |
+| Void | `0.1.5` | ✅ latest |
+| Alpine edge | `0.1.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.1.5` | ✅ latest |
 
 ## 改进这些数据
 
@@ -68,4 +88,4 @@ hey 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:09:11Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:13:31Z._
