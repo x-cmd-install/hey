@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.1.5"
   latestRelease: "v0.1.5"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:34:23Z
+  collectedAt: 2026-09-11T20:24:31Z
 timeline:
   created: 2016-09-02
   lastCommit: 2026-01-10
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-01-10
   lastPrerelease: 
 popularity:
-  star: 20257
+  star: 20259
   watcher: 184
   fork: 1302
   release: 5
@@ -85,7 +85,7 @@ total:
   commit: 302
 ---
 path: /home/runner/.x-repo/github.com/rakyll/hey
-collectedAt: 2026-09-11T04:34:24Z
+collectedAt: 2026-09-11T20:24:37Z
 loc:
   Go:
     code: 968
