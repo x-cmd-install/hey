@@ -1,44 +1,30 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: openpkg_current
   srcname: hey
-  binnames:
-    - hey
-    - golang-github-rakyll-hey-dev
   visiblename: hey
-  version: 0.1.5
-  origversion: 0.1.5-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbd@debian.org
-  categories:
-    - misc
-- repo: termux
-  srcname: hey
-  binname: hey
-  visiblename: hey
-  version: 0.1.5
+  version: "20200711"
   origversion: null
-  status: newest
-  summary: HTTP load generator, ApacheBench (ab) replacement
-  maintainers:
-    - gouranga.das.khulna@gmail.com
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+  status: untrusted
+  summary: HTTP/HTTPS Load Generator
+  licenses:
+    - Apache
+  categories:
+    - Networking
+- repo: parrot
+  subrepo: parrot/main
   srcname: hey
   binnames:
     - hey
   visiblename: hey
-  version: 0.1.2
-  origversion: 0.1.2-2
+  version: 0.1.4
+  origversion: 0.1.4+ds-1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - arthurbdiniz@gmail.com
   categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
+    - misc
+- repo: pardus_21
+  subrepo: main
   srcname: hey
   binnames:
     - hey
@@ -50,7 +36,37 @@
     - team+pkg-go@tracker.debian.org
     - arthurbdiniz@gmail.com
   categories:
-    - universe/misc
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - devel
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: hey
+  binnames:
+    - hey
+    - hey-debuginfo
+    - hey-debugsource
+  visiblename: hey
+  version: 0.1.5
+  origversion: 0.1.5-1.7
+  status: newest
+  summary: HTTP load generator, ApacheBench (ab) replacement
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: alpine_3_17
   subrepo: community
   srcname: hey
@@ -377,13 +393,14 @@
   srcname: hey
   binnames:
     - hey
+    - golang-github-rakyll-hey-dev
   visiblename: hey
   version: 0.1.5
-  origversion: 0.1.5-1
+  origversion: 0.1.5-2
   status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
+    - arthurbd@debian.org
   categories:
     - misc
 - repo: liguros_stable
@@ -494,47 +511,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - Apache-2.0
-- repo: openpkg_current
-  srcname: hey
-  visiblename: hey
-  version: "20200711"
-  origversion: null
-  status: untrusted
-  summary: HTTP/HTTPS Load Generator
-  licenses:
-    - Apache
-  categories:
-    - Networking
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: hey
-  binnames:
-    - hey
-    - hey-debuginfo
-    - hey-debugsource
-  visiblename: hey
-  version: 0.1.5
-  origversion: 0.1.5-1.7
-  status: newest
-  summary: HTTP load generator, ApacheBench (ab) replacement
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: pardus_21
-  subrepo: main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: hey
@@ -549,34 +525,6 @@
     - arthurbdiniz@gmail.com
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - devel
 - repo: pureos_landing
   subrepo: landing/main
   srcname: hey
@@ -619,14 +567,53 @@
     - arthurbdiniz@gmail.com
   categories:
     - misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: raspbian_testing
+  subrepo: main
+  srcname: hey
+  binnames:
+    - hey
+    - golang-github-rakyll-hey-dev
+  visiblename: hey
+  version: 0.1.5
+  origversion: 0.1.5-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
+- repo: termux
+  srcname: hey
+  binname: hey
+  visiblename: hey
+  version: 0.1.5
+  origversion: null
+  status: newest
+  summary: HTTP load generator, ApacheBench (ab) replacement
+  maintainers:
+    - gouranga.das.khulna@gmail.com
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.2
+  origversion: 0.1.2-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: hey
   binnames:
     - hey
   visiblename: hey
   version: 0.1.4
-  origversion: 0.1.4-2build1
+  origversion: 0.1.4-1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -644,6 +631,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - arthurbdiniz@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-2build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - arthurbdiniz@gmail.com
   categories:
     - universe/misc
