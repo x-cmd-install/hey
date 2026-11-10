@@ -1,3 +1,131 @@
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: hey
+  binnames:
+    - hey
+    - golang-github-rakyll-hey-dev
+  visiblename: hey
+  version: 0.1.5
+  origversion: 0.1.5-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
+- repo: pardus_21
+  subrepo: main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: hey
+  binnames:
+    - hey
+    - golang-github-rakyll-hey-dev
+  visiblename: hey
+  version: 0.1.5
+  origversion: 0.1.5-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbd@debian.org
+  categories:
+    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: hey
@@ -63,6 +191,20 @@
     - michal@polanski.me
   licenses:
     - Apache-2.0
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - misc
 - repo: alpine_3_22
   subrepo: community
   srcname: hey
@@ -243,8 +385,8 @@
     - arthurbd@debian.org
   categories:
     - misc
-- repo: deepin_25
-  subrepo: community
+- repo: parrot
+  subrepo: parrot/main
   srcname: hey
   binnames:
     - hey
@@ -255,35 +397,6 @@
   maintainers:
     - team+pkg-go@tracker.debian.org
     - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: hey
-  binnames:
-    - hey
-    - golang-github-rakyll-hey-dev
-  visiblename: hey
-  version: 0.1.5
-  origversion: 0.1.5-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbd@debian.org
   categories:
     - misc
 - repo: freebsd
@@ -458,119 +571,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: pardus_21
-  subrepo: main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: hey
-  binnames:
-    - hey
-    - golang-github-rakyll-hey-dev
-  visiblename: hey
-  version: 0.1.5
-  origversion: 0.1.5-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbd@debian.org
-  categories:
-    - misc
 - repo: termux
   srcname: hey
   binname: hey
@@ -610,20 +610,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.4
-  origversion: 0.1.4-2ubuntu0.24.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - arthurbdiniz@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: hey
   binnames:
@@ -634,6 +620,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - arthurbdiniz@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: hey
+  binnames:
+    - hey
+  visiblename: hey
+  version: 0.1.4
+  origversion: 0.1.4-2ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - arthurbdiniz@gmail.com
   categories:
     - universe/misc
@@ -695,20 +695,6 @@
     - universe/misc
 - repo: ubuntu_27_04
   subrepo: tenacious/universe
-  srcname: hey
-  binnames:
-    - hey
-  visiblename: hey
-  version: 0.1.5
-  origversion: 0.1.5-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arthurbdiniz@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
   srcname: hey
   binnames:
     - hey
