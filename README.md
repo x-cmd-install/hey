@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,809 · **Forks**: 1,326 · **Open issues**: 174 · **Contributors**: 40
+- **Stars**: 20,815 · **Forks**: 1,326 · **Open issues**: 174 · **Contributors**: 40
 
 ## Totals (cumulative)
 
-- **Releases**: 5 · **Merged PRs**: 36 · **Open PRs**: 77 · **Closed issues**: 58 · **Open issues**: 116 · **Commits**: 302
+- **Releases**: 5 · **Merged PRs**: 36 · **Open PRs**: 78 · **Closed issues**: 58 · **Open issues**: 116 · **Commits**: 302
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-27 | 0 | 0 | 5 | 0 | 0 | 0 |
-| 90d | 2026-08-28 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last180d | 2026-05-30 | 0 | 0 | 9 | 0 | 0 | 0 |
-| 360d | 2025-12-01 | 1 | 1 | 12 | 0 | 2 | 0 |
-| last720d | 2024-12-06 | 1 | 1 | 12 | 1 | 5 | 14 |
+| 30d | 2026-10-28 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-28 | 0 | 0 | 6 | 0 | 0 | 0 |
+| 90d | 2026-08-29 | 0 | 0 | 6 | 0 | 0 | 0 |
+| last180d | 2026-05-31 | 0 | 0 | 10 | 0 | 0 | 0 |
+| 360d | 2025-12-02 | 1 | 1 | 13 | 0 | 2 | 0 |
+| last720d | 2024-12-07 | 1 | 1 | 13 | 1 | 5 | 14 |
 
 ## Improve this data
 
@@ -71,4 +71,4 @@ Install metadata for hey lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:06:34Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:22:09Z._
